@@ -1,0 +1,36 @@
+@media (min-width: 769px) {
+  .colors__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 980px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .colors__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .about__inner {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about__art {
+    flex-basis: 40%;
+  }
+
+  .about__content {
+    flex-basis: 50%;
+  }
+
+  .alert {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
